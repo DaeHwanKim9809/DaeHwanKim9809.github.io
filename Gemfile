@@ -4,7 +4,7 @@ source "https://rubygems.org"
 gem "github-pages", "~> 231"
 
 # 필요한 경우 추가적인 의존성 추가
-gem "faraday-retry" # Faraday v2.0+와 함께 사용하기 위해 추가
+#gem "faraday-retry" # Faraday v2.0+와 함께 사용하기 위해 추가
 
 # Windows에서의 특정 설정 (필요시)
 #install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
@@ -13,7 +13,7 @@ gem "faraday-retry" # Faraday v2.0+와 함께 사용하기 위해 추가
 #end
 
 # Windows 성능 향상을 위한 설정
-gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
+#gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 
 # 로컬 테스트용 HTTP 서버
-gem "webrick", "~> 1.7"
+#gem "webrick", "~> 1.7"
