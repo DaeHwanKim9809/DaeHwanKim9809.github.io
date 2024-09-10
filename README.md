@@ -1,151 +1,183 @@
-[English] [[日本語](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/README-ja.md#readme)] [[Português do Brasil](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/README-pt.md#readme)] [[français](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/README-fr.md#readme)] [[简体中文](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/README-zh.md#readme)] [[한국어](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/README-ko.md#readme)] [[Türkçe](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/README-tr.md#readme)]
-
-## Mr. Green Jekyll Theme
-
-<!-- readme -->
-
-[<img src="https://img.shields.io/github/issues/MrGreensWorkshop/MrGreen-JekyllTheme" alt="GitHub issues" data-no-image-viewer>](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/issues)
-[<img src="https://img.shields.io/github/forks/MrGreensWorkshop/MrGreen-JekyllTheme?style=flat" alt="GitHub forks" data-no-image-viewer>](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/README.md#readme)
-[<img src="https://img.shields.io/github/stars/MrGreensWorkshop/MrGreen-JekyllTheme?style=flat" alt="GitHub stars" data-no-image-viewer>](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/README.md#readme)
-[<img src="https://img.shields.io/github/license/MrGreensWorkshop/MrGreen-JekyllTheme" alt="GitHub license" data-no-image-viewer>](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/LICENSE.txt)
-[<img src="https://shields.io/badge/Github%20Sponsors-Support%20me-blue?logo=GitHub+Sponsors" alt="Support me on GitHub Sponsors" data-no-image-viewer>](https://github.com/sponsors/MrGreensWorkshop "Support me on GitHub Sponsors")
-[<img src="https://shields.io/badge/Patreon-Support%20me-blue?logo=Patreon" alt="Be my Patron" data-no-image-viewer>](https://patreon.com/MrGreensWorkshop "Be my Patron")
-[<img src="https://shields.io/badge/Ko--fi-Tip%20me-blue?logo=kofi" alt="Tip me via Ko-fi" data-no-image-viewer>](https://ko-fi.com/MrGreensWorkshop "Tip me via Ko-fi")
-
----
-
-<div align="center">
-  <img src="https://jekyll-theme-mrgreen-demo.mrgreensworkshop.com/assets/img/posts/mock1.jpg" max-height="500" alt="screen_mock">
-  <br><br>
-  <a href="https://jekyll-theme-mrgreen-demo.mrgreensworkshop.com" style="font-weight: bold;" >Click here for live demo</a>
-</div>
 
 
-### Introduction
+# Hydejack
 
-<!-- outline-start -->
+A boutique Jekyll theme for hackers, nerds, and academics.  
 
-[Mr. Green](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme) is a multilingual theme generated with [Jekyll](https://jekyllrb.com/) and fully compatible with [GitHub Pages](https://pages.github.com/).
 
-<!-- outline-end -->
 
-I was going to make my website and thought if I did it as a template, I could share it with the open source community. That's why I decided to build it as a theme. I've worked so hard to make this possible, so please consider [supporting my work](#you-can-support-my-work). Thanks.
 
-### Features
+[![Screenshot](https://hydejack.com/assets/img/blog/hydejack-9.jpg)][welcome]
 
-- Multilingual web site
-  - English (default), Japanese, Brazilian Portuguese, French, Chinese (Simplified), Korean, Turkish
-- Recommended language offer feature
-- Auto Navigation Button adder with icon enable disable options
-- Layouts for `Home`, `About`, `Archives`, `Post-list`, `Links`, `Projects` and more
-- Color scheme switching options (Dark light)
-- Auto Contact option adder
-- Auto image referrer (no need to add full path for images. Just add `:` in front of it.)
-- image lazy loader, image viewer
-- Cool Footer with creative commons licensing
-- Movable Table of Contents modal box for Posts
-- Post Share Options
-- Post-listing by Category or Tags
-- Comments for posts
-  - [Giscus](https://giscus.app)
-  - [Disqus](https://disqus.com)
-- Selectable numbered pagination or scroll to load type
-- Sitemap feature
-- Search Engine Optimization (SEO)
-  - [Schema Markup](https://schema.org)
-  - [Open Graph](https://ogp.me/)
-  - [Twitter](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary)
-- Analytics (Google Analytics)
-- Cookie consent feature
-- Contact form feature (Google Forms)
-- Site Search feature
-- Code Compression for small footprint (`HTML` `JS` `SCSS`)
-- Mobile App support
-- Mobile device friendly (Tested on Android and IOS)
-- Well organized folder structure for developers (Tested on Chrome, Safari, FireFox)
+<p align="center">Hydejack's cover page on a variety of screen sizes.
 
-### Installation
 
-#### GitHub pages
 
-1. [Fork the repo](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/fork).
-1. Edit \_config.yml and change `url` like below and push changes.
+**Hydejack** is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress. 
 
-   ```yaml
-   url: "https://your_github_user_name.github.io"
-   ```
+It includes a blog that is suitable for both prose and technical documentation, a portfolio to showcase your projects, and a resume template that looks amazing on the web and in print.
 
-1. Rename the repo name to `your_github_user_name.github.io`.
-1. Check Deploy status `Actions` tab on the repo.
-1. When it's turned to green, your site is up and running at `https://your_github_user_name.github.io`.
+> Your complete presence on the web — A [blog], [portfolio], and [resume].
 
-#### Local build
 
-1. [Install Jekyll](https://jekyllrb.com/docs/installation/) to your OS.
-1. Clone or [download](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/releases/latest) the repo, in command prompt go to the folder run `bundle install` command.
-1. Build using `bundle exec jekyll serve --watch --host 0.0.0.0 --safe` command,
-    - with `--host 0.0.0.0` parameter you can access web server from same lan.
-    - with `--safe` parameter you can make sure no 3rd party plugin added. (for GitHub pages development)
-1. Your page will be up and running at the `0.0.0.0:4000/` address.
 
-### Documentation
+## A Personal Site That Won't Disappear
 
-Check out [Mr. Green theme tutorials playlist](https://www.youtube.com/playlist?list=PLAymxPbYHgl-fFy5can7uZBMJtFWVcphD) on YouTube.
+**Hydejack** is 100% built on Open Source software, and is Open Source itself, save for parts of the PRO version. The PRO version is a one-time payment that gives you the right to use it forever.
 
-### Credits
+Hydejack is all static sites. _HTML_. All you need is a web server — any web server — to have a professional web presence that lasts a lifetime.
 
-I want to thank these projects that gave me an opportunity to build my web site.
 
-- [Jekyll](https://jekyllrb.com/) is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website. You can tweak the site’s look and feel, URLs, the data displayed on the page, and more. It is a wonderful project which is maintained by volunteers.
+## A Free Blogging Theme
+**Hydejack** started out as a free blogging theme for Jekyll — and continues to be so.
 
-- [GitHub Pages](https://pages.github.com/) Hosted directly from your GitHub repository. Just push the changes and the site will be automatically generated.
+<!--posts-->
 
-Some of the sites that I find useful while I'm working on this project. [Links page](https://jekyll-theme-mrgreen-demo.mrgreensworkshop.com/tabs/links.html).
 
-### You Can Support My Work
+## An Impressive Portfolio
+A portfolio that's guaranteed to be impressive — no matter what you put into it.
 
-Creating projects starting from nothing takes a great amount of time. Much appreciated if you consider supporting me so that I can continue projects like this and creating new contents for everyone.
+<!--projects-->
 
-- You can be one of my [GitHub Sponsors](https://github.com/sponsors/MrGreensWorkshop "Support me on GitHub Sponsors") (monthly or one time)
-- You can be one of my [Patreons](https://patreon.com/MrGreensWorkshop "Be my Patron") (monthly)
-- You can tip me via [Ko-fi](https://ko-fi.com/MrGreensWorkshop "Tip Me via Ko-fi") (one time)
 
-### Contribute
+## A Printable Resume
+Get a resume that's consistent across the board — whether it's on the web, mobile, print, or [PDF](https://hydejack.com/assets/Resume.pdf).
 
-Pull Requests are welcome. Please check the instructions in the Issues and Pull Request templates.
+[![Resume PDF](https://hydejack.com/assets/img/blog/resume.png)][resume]
 
-### Contributors
+<p align="center">Front and center page of a print resume generated by Hydejack.
 
-Thank you for your contributions!
 
-- Brazilian Portuguese translation by [Vitor DallAcqua](https://github.com/fandangos).
-- French translation corrections by [Jean-Philippe Morissette](https://github.com/JPMorissette).
-- Chinese translation by [fairycn](https://github.com/fairycn).
-- Turkish translation by [Onur Ergünay](https://github.com/onurergunay).
 
-### License
+## Just Markdown
+Write all content with Markdown. __Hydejack__ gives you [additional CSS classes](docs/writing.md) to stylize your content, without losing compatibility with other Jekyll themes.
 
-As it says in the [MIT license](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/LICENSE.txt), you can use this theme anywhere as long as you include the license and copyright notice.
 
-`Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com`
+## Just Markup
+**Hydejack** boasts a plethora of modern JavaScript, but make no mistake: It's still a _plain old web page_ at its core. It works without JavaScript and you can even view it in a text-based browser like `w3m`:
 
-Please add link to my page or leave the "Pwrd by Mr. Green" link in the footer so I can get credit for my work.
+![w3m Screenshot](https://hydejack.com/assets/img/blog/w3m.png)
 
-Thank you!
+<p align="center">The Hydejack blog, as seen by the text browser `w3m`.
 
-### Other Licenses
 
-Mr. Green Jekyll Theme incorporates libraries written below. Without these libraries, I couldn't make this project possible.
 
-| Library                              | file |
-| :----------------------------------- | ---- |
-| [jQuery v3.6.0](https://github.com/jquery/jquery/tree/3.6.0), Copyright [OpenJS Foundation](https://openjsf.org) and other contributors. jQuery is distributed under the terms of the MIT License. | [jquery-3.6.0.min.js](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/assets/js/jquery-3.6.0.min.js) |
-| [Bootstrap v3.3.7](https://github.com/twbs/bootstrap/tree/v3.3.7), Copyright (c) 2011-2016 Twitter, Inc. Bootstrap is distributed under the terms of the MIT License. | [bootstrap.min.js](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/assets/js/bootstrap.min.js), [bootstrap.min.css](assets/css/bootstrap.min.css) |
-| [Bootstrap Table of Contents v0.4.1](https://github.com/afeld/bootstrap-toc/tree/v0.4.1), Copyright (c) 2015 Aidan Feldman. Bootstrap Table of Contents is distributed under the terms of the MIT License. | [bootstrap-toc.min.js](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/assets/js/bootstrap-toc.min.js), [bootstrap-toc.min.css](assets/css/bootstrap-toc.min.css) |
-| [Font Awesome v4.7.0](https://github.com/FortAwesome/Font-Awesome/tree/v4.7.0), Copyright (c) 2017 Dave Gandy. The Font Awesome font is distributed under the terms of the [SIL OFL 1.1](http://scripts.sil.org/OFL). Font Awesome CSS, LESS, and Sass files are distributed under the terms of the [MIT License](https://opensource.org/licenses/mit-license.html). | [font-awesome.min.css](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/assets/css/font-awesome.min.css), [FontAwesome](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/assets/fonts/) |
-| [Lozad.js v1.16.0](https://github.com/ApoorvSaxena/lozad.js/tree/v1.16.0), Copyright (c) 2017 Apoorv Saxena. Lozad.js is distributed under the terms of the MIT License. | [lozad.min.js](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/assets/js/lozad.min.js) |
-| [Magnific Popup v1.1.0](https://github.com/dimsemenov/Magnific-Popup/tree/1.1.0), Copyright (c) 2014-2016 Dmitry Semenov, http://dimsemenov.com. Magnific Popup is distributed under the terms of the MIT License. | [jquery.magnific-popup.min.js](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/assets/js/jquery.magnific-popup.min.js), [magnific-popup.css](assets/css/magnific-popup.css) |
-| [Simple-Jekyll-Search v1.9.2](https://github.com/christian-fei/Simple-Jekyll-Search/tree/v1.9.2), Copyright (c) 2015 Christian Fei. Simple-Jekyll-Search is distributed under the terms of the MIT License. | [simple-jekyll-search-1.9.2.min.js](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/assets/js/simple-jekyll-search-1.9.2.min.js) |
-| [Compress HTML in Jekyll v3.1.0](https://github.com/penibelst/jekyll-compress-html/tree/v3.1.0), Copyright (c) 2014 Anatol Broder. Compress HTML in Jekyll is distributed under the terms of the MIT License. | [compress.liquid](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/_layouts/util/compress.liquid) |
+## Syntax Highlighting
+**Hydejack** features syntax highlighting, powered by [Rouge].
 
-[Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
+```html
+<!-- file: `_includes/my-body.html` -->
+<script type="module">
+  document.querySelector("hy-push-state").addEventListener("hy-push-state-load", () => {
+    const supportsCodeHighlights = false; // TBD!!
+  });
+</script>
+```
+
+<p align="center">Code blocks can have a filename and a caption.
+
+
+
+## Beautiful Math
+They say math is beautiful — and with **Hydejack**'s [math support][math] it's guaranteed to also look beautiful:
+
+![Math example](https://hydejack.com/assets/img/blog/example-content-iii.jpg)
+
+<p align="center">Hydejack uses KaTeX to efficiently render math.
+
+
+
+## Features
+
+An incomplete list of features included in all versions of **Hydejack**:
+
+* Responsive layout with unique design features for every screen size
+* Cover Pages for a stunning first impression.
+* Customizable sidebar and touch-enabled drawer menu
+* Single Page Web App-style page loading
+* Advanced FLIP animations, inspired by Material Design
+* Good [Google PageSpeed Score][gpss][^11]
+* [Syntax highlighting][syntax], powered by [Rouge]
+* [LaTeX math blocks][latex], rendered with ether [KaTeX] or [MathJax] at your choice
+* Soft-coded labels: Change wording or translate to other languages via a single file
+* Support for categories and tags
+* Author section below each article and support for multiple authors
+* Built-in icons for many social networks
+* Simple and semantic HTML + Structured Data
+* Works with GitHub Pages out of the box[^12]
+
+[^11]: Actual page load speed depends on your hosting provider, location, resolution and format of images, usage of 3rd party plugins, and other factors.
+
+[^12]: Some limitations apply, most notably the need to use use MathJax instead of KaTeX for math block rendering.
+
+*[FLIP]: First-Last-Invert-Play. A coding technique to achieve performant page transition animations.
+
+
+## Download
+
+There are two versions of **Hydejack**: The *Free Version* includes basic blogging functionality and most of Hydejack's [Features], such as dynamic page loading and advanced animations.
+
+The *PRO Version* includes additional features for professionals, such as a [portfolio], [resume], [Dark Mode][dark], [Forms], [Built-In Search][search] and customizable cookie banners.
+
+The table below shows what's included in each version:
+
+|                               | Free                | PRO                 |
+|:------------------------------|:-------------------:|:-------------------:|
+| [Blog]                        | &#x2714;            | &#x2714;            |
+| [Features]                    | &#x2714;            | &#x2714;            |
+| [Documentation][docs]         | &#x2714;            | &#x2714;            |
+| [Dark Mode][dark]             | &#x2714;            | &#x2714;            |
+| [Portfolio]                   |                     | &#x2714;            |
+| Printable [Resume]            |                     | &#x2714;            |
+| [Built-In Search][search]     |                     | &#x2714;            |
+| [Custom Forms][forms]         |                     | &#x2714;            |
+| [Grid layout][grid]           |                     | &#x2714;            |
+| [Offline Support][ofln]       |                     | &#x2714;            |
+| Table of Contents[^21]        |                     | &#x2714;            |
+| Cookie Banner                 |                     | &#x2714;            |
+| No Hydejack Branding          |                     | &#x2714;            |
+| License                       | [GPL-3.0][lic]      | [PRO]               |
+| Source                        | [GitHub][src]       | Included            |
+| __Price__                     | __Free__            | __$119__ <small>One-Time Purchase</small>[^xx] |
+|                               | [__Download__][kit] | [__Buy PRO__][buy] |
+
+
+[^21]: Large screens (> 1664px width) only.
+
+[^xx]: 
+    Discounts may apply, check [Gumroad][buy] for up-to-date pricing.
+    
+
+
+
+
+[blog]: https://hydejack.com/blog/
+[portfolio]: https://hydejack.com/showcase/
+[resume]: https://hydejack.com/resume/
+[download]: https://hydejack.com/download/
+[welcome]: https://hydejack.com/
+[forms]: https://hydejack.com/forms-by-example/
+
+[features]: https://hydejack.com/#features
+[news]: https://hydejack.com/#build-an-audience
+[syntax]: https://hydejack.com/#syntax-highlighting
+[latex]: https://hydejack.com/#beautiful-math
+[dark]: https://hydejack.com/blog/hydejack/2018-09-01-introducing-dark-mode/
+[search]: https://hydejack.com/#_search-input
+[grid]: https://hydejack.com/blog/hydejack/
+
+[lic]: LICENSE.md
+[pro]: licenses/PRO.md
+[docs]: https://hydejack.com/docs/
+[ofln]: https://hydejack.com/docs/advanced/#enabling-offline-support
+[math]: https://hydejack.com/docs/writing/#adding-math
+
+[kit]: https://github.com/hydecorp/hydejack-starter-kit/releases
+[src]: https://github.com/hydecorp/hydejack
+[gem]: https://rubygems.org/gems/jekyll-theme-hydejack
+[buy]: https://gum.co/nuOluY
+
+[gpss]: https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fhydejack.com%2Fdocs%2F
+[rouge]: http://rouge.jneen.net
+[katex]: https://khan.github.io/KaTeX/
+[mathjax]: https://www.mathjax.org/
