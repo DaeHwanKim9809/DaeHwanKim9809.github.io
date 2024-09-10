@@ -7,10 +7,10 @@ gem "github-pages", "~> 231"
 gem "faraday-retry" # Faraday v2.0+와 함께 사용하기 위해 추가
 
 # Windows에서의 특정 설정 (필요시)
-install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
-  gem "tzinfo", "~> 1.2"
-  gem "tzinfo-data"
-end
+#install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
+#  gem "tzinfo", "~> 1.2"
+#  gem "tzinfo-data"
+#end
 
 # Windows 성능 향상을 위한 설정
 gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
