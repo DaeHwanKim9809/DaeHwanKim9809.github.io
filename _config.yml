@@ -1,71 +1,34 @@
-lang:                  en
-title:                 Hydejack
-copyright:             © 2024. All rights reserved.
+# 기본 사이트 설정
+title: "검라제의 노트"   # 사이트 제목
+description: "머신러닝, 인공지능, 🎸, 🏸"   # 사이트 설명
+baseurl: "/blog"   # 루트가 아닌 하위 디렉토리에 있을 경우 경로를 지정 (예: /blog)
+url: "http://yourdomain.com"   # 사이트의 URL
 
-accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          rgb(79,177,186)
-theme_color:           rgb(25,55,71)
+# 테마 설정
+theme: jekyll-theme-hydejack   # 사용할 Jekyll 테마 (Hydejack)
 
-google_fonts:          false
+# 빌드 설정
+markdown: kramdown   # 사용된 마크다운 변환기 (기본값: kramdown)
+highlighter: rouge   # 코드 하이라이터 설정 (기본값: rouge)
 
-hydejack:
-  post_addons:         [about, newsletter, related, random, comments]
-  project_addons:      [about, newsletter, other, comments]
+# 플러그인 설정
+plugins:
+  - jekyll-include-cache   # 필요한 플러그인 추가
 
-  no_mark_external:    false
-  no_push_state:       false
-  no_drawer:           false
-  no_navbar:           false
-  no_search:           false
-  no_inline_css:       false
-  no_page_style:       false
-  no_break_layout:     true
-  no_toc:              false
-  no_third_column:     false
-  no_large_headings:   false
-  no_structured_data:  false
-  no_theme_color:      false
-  no_breadcrumbs:      false
+# 기타 설정
+permalink: /:categories/:title/   # URL 구조 설정
+paginate: 10   # 한 페이지에 표시될 포스트 수
 
-  use_lsi:             true
-  cookies_banner:      true
-  advertise:           true
-  hide_dates:          false
-  hide_last_modified:  false
+# Hydejack 설정
+advertise: False
 
-  dark_mode:
-    always:            false
-    dynamic:           true
-    sunrise:           6
-    sunset:            18
-    icon:              true
+menu:
+  - title: Github Page
+    url:   /github_page/
 
-  offline:
-    enabled:           false
-    cache_version:     1
-    precache_assets:
-      - /assets/img/swipe.svg
+collections:
+  blog:
+    output: true
 
-optional_front_matter:
-  remove_originals:    true
-
-readme_index:
-  remove_originals:    true
-  with_frontmatter:    true
-
-relative_links:
-  collections:         true
-
-titles_from_headings:
-  strip_title:         true
-  collections:         true
-
-compress_html:
-  comments:            ["<!-- ", " -->"]
-  clippings:           all
-  endings:             all
-  ignore:
-    envs:              [development]
-
-sass:
-  style:               compressed
+plugins:
+  - jekyll-paginate
